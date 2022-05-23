@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <!-- Google Analytics
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150808302-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-150808302-1");
+  </script>
+  -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ page.title }} - {{ site.title }}</title>
+
+  <!-- TODO: clean this up -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Adamina" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" />
+  <link rel="stylesheet" href="{{ "assets/css/Animated-numbers-section.css" | relative_url }}" />
+  <!--
+  <link rel="stylesheet" href="{{ "assets/css/best-carousel-slide.css" | relative_url }}" />
+  -->
+  <link rel="stylesheet" href="{{ "assets/css/FAQ-Frequentlly-Asked-Questions.css" | relative_url }}" />
+  <link rel="stylesheet" href="{{ "assets/css/gradient-navbar-1.css" | relative_url }}" />
+  <link rel="stylesheet" href="{{ "assets/css/gradient-navbar.css" | relative_url }}" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+  <!--
+  <link rel="stylesheet" href="{{ "assets/css/Navigation-Clean-1.css" | relative_url }}" />
+  <link rel="stylesheet" href="{{ "assets/css/Navigation-Clean.css" | relative_url }}" />
+  -->
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha512-Ah5hWYPzDsVHf9i2EejFBFrG2ZAPmpu4ZJtW4MfSgpZacn+M9QHDt+Hd/wL1tEkk1UgbzqepJr6KnhZjFKB+0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.26.0/luxon.min.js" integrity="sha512-cYjGoxnM2sxryDRpKhwi8uTszEw2zufuDVz1dWlm1+wlvwnhQ4wu00BokHH4IKlogGJNL+2a2GYvHN+xaoUxjQ==" crossorigin="anonymous"></script>
+</head>
+
+<body style="font-family: 'Open Sans', sans-serif">
+  {% include umass_search_bar.html %}
+  <div class="container">
+    {% include navbar.html %}
+    {% include alerts.html %}
+    {{ content }}
+  </div>
+  {% include footer.html %}
+  <script>
+    $('.carousel').carousel();
+  </script>
+</body>
+
+</html>

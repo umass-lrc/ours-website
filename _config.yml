@@ -1,0 +1,192 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Learning Resource Center"
+
+site_policies_link: https://www.umass.edu/gateway/site-policies
+webmaster_email: sbandrews@umass.edu
+
+navbar_links:
+  - name: Tutoring
+    link: tutoring.html
+  - name: SI
+    link: si.html
+  - name: OURS
+    link: https://www.umass.edu/ours/
+  - name: User Guides
+    link: user_guide.html
+  - name: Student Employment
+    link: student_employment.html
+
+navbar_dropdown_title: Staff
+navbar_dropdown_links:
+  - name: Staff Page
+    link: staff.html
+  - name: Staff Login
+    link: https://oursoffice.umass.edu/lrc_super/lrc_super/public/views/index.php
+
+# For every alert you would like to add, specify:
+#  - text: the text for the alert, e.g. "The LRC will be closed tomorrow."
+#  - type: what type the alert is/what color it should display as. Options are:
+#     * info -- light blue
+#     * warning -- yellow
+#     * danger -- red
+#  - id: should be a string of letters, numbers, and dashes ('-') that has
+#        never been used as an alert ID before. I recommend generating a random
+#        string from random.org.
+#  - dismissable: whether users can dismiss the alert by clicking an X button
+alerts:
+  - text: The LRC is hiring peer tutors, SI leaders, and OURS research mentors.
+    type: info
+    id: recruiting_fall_2022
+    dismissable: true
+
+open_closed_card:
+  items:
+    - title: Hours
+      content: LRC is open for services by appointment only for a small selection of classes. Please email us for an appointment. For virtual drop-in tutoring sessions, please call the LRC instead. Our front office team will be happy to put you on the virtual queue.
+    - title: Address
+      content: 10th floor, W.E.B. Du Bois Library, 154 Hicks Way, Amherst MA
+      link: https://goo.gl/maps/nXjB7p5p6CocBAKB9
+    - title: Email
+      content: lrc@umass.edu
+      link: mailto:lrc@umass.edu
+    - title: Telephone
+      content: +1 (413) 545-5334
+      link: tel:14135455334
+
+hours:
+  main_office:
+    - start_day: 0
+      end_day: 0
+      closed: true
+    - start_day: 1
+      end_day: 5
+      open_time: 9
+      close_time: 17
+    - start_day: 6
+      end_day: 6
+      closed: true
+  tutoring:
+    - start_day: 0
+      end_day: 0
+      closed: true
+    - start_day: 1
+      end_day: 5
+      open_time: 9
+      close_time: 17
+    - start_day: 6
+      end_day: 6
+      closed: true
+  si:
+    - start_day: 0
+      end_day: 0
+      closed: true
+    - start_day: 1
+      end_day: 5
+      open_time: 9
+      close_time: 17
+    - start_day: 6
+      end_day: 6
+      closed: true
+
+  tutoring: null
+  si: null
+
+homepage:
+  carousel:
+    items:
+      - title: Tutoring
+        subtitle: Get individualized help for a large number of courses.
+        image: assets/img/pic1.jpg
+        buttons:
+          - text: Learn more
+            link: tutoring.html
+      - title: Supplemental Instruction
+        subtitle: Check out the SI schedule.
+        image: assets/img/pic2.jpg
+        buttons:
+          - text: Learn more
+            link: si.html
+
+  # The "sidebar" is the part of the homepage next to the carousel that has
+  # some handy commonly used links.
+  #
+  # For each sidebar item, specify,
+  #  - icon: the name of an icon from font-awesome: https://fontawesome.com/
+  #  - title: large, bold text
+  #  - description: smaller, more detailed text
+  #  - link: where the link should go to. For links to the LRC website itself,
+  #    omit the "https://www.umass.edu/lrc/" prefix. So, if you want a link to
+  #    https://www.umass.edu/lrc/tutoring.html you should put "tutoring.html"
+  #
+  # There should only be 7 sidebar items. Having more or less will result in
+  # ugly unused space. Having fewer than seven isn't _as_ bad, but it's still
+  # better to avoid.
+  sidebar:
+    items:
+      - icon: chalkboard-teacher
+        title: Supplemental Instruction
+        description: Small, peer-led review sessions
+        link: si.html
+
+      - icon: hands-helping
+        title: Drop-in tutoring schedule
+        description: Get individual help now
+        link: https://oursoffice.umass.edu/tutoring_schedule/
+
+      - icon: calendar-alt
+        title: Book a tutoring appointment
+        description: Pick a time that works for you
+        link: https://umass.campus.eab.com/
+
+      - icon: book-open
+        title: OURS
+        description: Discover research opportunities
+        link: https://www.umass.edu/ours/
+
+      - icon: glasses
+        title: Faculty support
+        description: Learn how your course can benefit from LRC services
+        link: user_guide.html
+
+      - icon: handshake
+        title: Work for the LRC
+        description: We're hiring SI leader, tutors, and research mentors for fall 2022!
+        link: student_employment.html
+
+      - icon: question-circle
+        title: Email the LRC
+        description: Receive a response in 24 business hours
+        link: mailto:lrc@umass.edu
+
+staff:
+  - name: LIN TANG, Ph.D.
+    title: Director
+    picture: assets/img/lin.jpg
+    email: lintang@acad.umass.edu
+    room: 1002
+    phone: +1 (413) 545-5334
+
+  - name: STACIE VANASSE
+    title: Associate Director
+    email: svanasse@umass.edu
+    room: 1090
+    phone: +1 (413) 577-2341
+
+  - name: DEB PHILLIS
+    title: OURS Coordinator and Lead Shift Manager
+    email: dphillis@acad.umass.edu
+    room: 1039
+    phone: +1 (413) 577-2175
+
+  - name: ZEKE SHENK
+    title: LRC Shift Manager
+    email: zshenk@umass.edu
+
+  - name: SIMON ANDREWS
+    title: Tech Lead
+    email: sbandrews@umass.edu
+
+  - name: LILY ROSENBAUM
+    title: Assistant Tech Lead
+    email: lrosenbaum@umass.edu

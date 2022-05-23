@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<!-- First row, containing carousel and USF sidebar. -->
+<div class="row">
+  <div class="col-lg-8">
+    <div id="main-carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        {% for carousel_item in site.homepage.carousel.items %}
+          {% if forloop.index == 1 %}
+            <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+          {% else %}
+            <li data-target="#main-carousel" data-slide-to="{{ forloop.index | minus: 1 }}"></li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+      <div class="carousel-inner" >
+        {% for carousel_item in site.homepage.carousel.items %}
+          {% if forloop.index == 1 %}
+          <div class="carousel-item active">
+          {% else %}
+          <div class="carousel-item">
+          {% endif %}
+            <img class="d-block w-100" src="{{ carousel_item.image }}">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>{{ carousel_item.title }}</h1>
+              <p>{{ carousel_item.subtitle }}</p>
+              <p>
+                {% for button in carousel_item.buttons %}
+                  <a href="{{ button.link }}" target="_blank">
+                    <button class="btn btn-primary" type="button">
+                      {{ button.text }}
+                    </button>
+                  </a>
+                {% endfor %}
+              </p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div>
+        <a class="carousel-control-prev" href="#main-carousel" role="button" data-slide="prev">
+          <i class="fa fa-chevron-left"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#main-carousel" role="button" data-slide="next">
+          <i class="fa fa-chevron-right"></i>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    {% for item in site.homepage.sidebar.items %}
+      <div class="row">
+        <div class="col-sm-2">
+          <div align="center" style="font-size: 28pt">
+            <i class="fas fa-{{ item.icon }}"></i>
+          </div>
+        </div>
+        <div class="col-sm -10">
+          <p>
+            <a href="{{ item.link }}">
+              <strong>{{ item.title }}</strong>
+              <br />
+              {{ item.description }}
+            </a>
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Second row: open/close times and main content -->
+<div class="row">
+  <div class="col-md-4">
+    {% include open_closed_card.html %}
+  </div>
+  <div class="col-md-8">
+    {{ content }}
+  </div>
+</div>
+
+<script>
+  {% include timing.js hours="main_office" %}
+</script>

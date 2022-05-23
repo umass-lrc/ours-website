@@ -1,0 +1,9 @@
+{% for alert in site.alerts %}
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="alert alert-{{ alert.type }}" id="alert-{{ alert.id }}" role="alert">
+        {{ alert.text }}
+      </div>
+    </div>
+  </div>
+{% endfor %}
