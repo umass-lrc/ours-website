@@ -11,7 +11,7 @@ The Learning Resource Center (LRC) serves as the central undergraduate academic 
 
 LRC and OURS departmental home is on the 10th floor of the W.E.B. DuBois Library! We took forward to supporting your academic success this year and beyond!
 
-*test1
-*test2
-*test3
-*test4
+* test1
+* test2
+* test3
+* test4
