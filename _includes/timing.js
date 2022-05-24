@@ -34,7 +34,16 @@ let ranges = [
   {% endfor %}
 ];
 
+function printRange(range) {
+  if (range.closed) {
+    console.log(`${range.start_day} -- ${range.end_day}: CLOSED`);
+  } else {
+    console.log(`${range.start_day} -- ${range.end_day}: ${range.open_time} to ${range.close_time}`);
+  }
+}
+
 for (const range of ranges) {
+  printRange(range);
   if (range.start_day <= day_of_week && range.end_day >= day_of_week) {
     if (range.closed) {
       lrc_open = false;

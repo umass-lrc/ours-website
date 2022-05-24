@@ -89,9 +89,6 @@ hours:
       end_day: 6
       closed: true
 
-  tutoring: null
-  si: null
-
 homepage:
   carousel:
     items:
@@ -169,12 +166,14 @@ staff:
 
   - name: STACIE VANASSE
     title: Associate Director
+    picture: assets/img/stacie2.jpg
     email: svanasse@umass.edu
     room: 1090
     phone: +1 (413) 577-2341
 
   - name: DEB PHILLIS
     title: OURS Coordinator and Lead Shift Manager
+    picture: assets/img/deb3.jpg
     email: dphillis@acad.umass.edu
     room: 1039
     phone: +1 (413) 577-2175

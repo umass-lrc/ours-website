@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <div
+      style='margin-bottom: 25px;background-image: url("assets/img/Fall 2021 Tutor Team.jpg");background-size: cover;background-position: 50% 20%;'>
+      <div class="d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center"
+          style="width: 100%;background-color: rgba(0,0,0,0.25);min-height: 40vh;">
+          <div style="padding-top: 1em;padding-bottom: 1em;margin-left: 10px;margin-right: 10px;">
+              <div class="row">
+                  <div class="col">
+                      <h1 class="text-center d-flex justify-content-center align-items-center"
+                          style="color: rgb(255,255,255);">
+                          <strong>The Tutoring Program</strong>
+                      </h1>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col">
+                      <h4 class="text-center" style="color: rgb(255,255,255);font-weight: normal;">
+                          Students helping students achieve academic
+                          success
+                      </h4>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    {% include open_closed_card.html %}
+  </div>
+  <div class="col-md-8">
+    {{ content }}
+  </div>
+</div>
+
+<script>
+  {% include timing.js hours="tutoring" %}
+</script>
