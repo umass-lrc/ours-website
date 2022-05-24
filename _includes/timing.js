@@ -34,9 +34,8 @@ let ranges = [
   {% endfor %}
 ];
 
-for (const range in ranges) {
-  if (range.start_day >= day_of_week && range.end_day <= day_of_week) {
-    console.log(`range ${range} matches!`);
+for (const range of ranges) {
+  if (range.start_day <= day_of_week && range.end_day >= day_of_week) {
     if (range.closed) {
       lrc_open = false;
       break;
