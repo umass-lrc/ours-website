@@ -6,6 +6,8 @@ title: Supplemental Instruction
 # Supplemental Instruction (SI) Program
 Supplemental Instruction (SI) sessions are informal, peer- facilitated review group learning seminars for a particular course section – SI sessions meet twice per week.
 
+**TEST**
+
  * SI started at UMass Amherst in 1998 with one course section and a few hundred student visits.
  * We now support over 50 course sections, with over 100 SI sessions running per week, and over 40,000 student visits annually.
  * SI support is available in many large lecture, foundational courses.
