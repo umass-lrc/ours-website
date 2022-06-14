@@ -14,13 +14,7 @@ let day_of_week = date.weekday; // Sunday --> 0, Monday --> 1, ..., Saturday -->
 let hour = date.hour;
 let minute = date.minute;
 
-{% if include.hours == "main_office" %}
-  {% assign hours = site.hours.main_office %}
-{% else if include.hours == "tutoring" %}
-  {% assign hours = site.hours.tutoring %}
-{% else %}
-  {% assign hours = site.hours.si %}
-{% endif %}
+{% assign hours = site.hours.ours %}
 
 let ranges = [
   {% for range in hours %}
