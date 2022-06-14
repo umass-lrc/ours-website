@@ -1,0 +1,28 @@
+---
+layout: default
+title: Opportunities
+---
+
+<div class="row">
+  <div class="col-md-12">
+    <h1>Opportunities</h1>
+  </div>
+</div>
+<div class="row">
+  {% for opportunity in site.opportunities %}
+    <div class="col-md-4">
+      <div class="card" style="margin-bottom: 2em;">
+        <div class="card-body">
+          <h5 class="card-title">{{ opportunity.name }}</h5>
+          <p class="card-text">{{ opportunity.description }}</p>
+          <a href="{{ opportunity.link }}" type="button" class="btn btn-primary">Learn more</a>
+        </div>
+      </div>
+    </div>
+    {% assign remainder = forloop.index | modulo: 3 | minus: 1 %}
+    {% if remainder == 2 %}
+</div>
+<div class="row">
+    {% endif %}
+  {% endfor %}
+</div>

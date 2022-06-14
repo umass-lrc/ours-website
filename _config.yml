@@ -120,3 +120,52 @@ staff:
   - name: LILY ROSENBAUM
     title: Assistant Tech Lead
     email: lrosenbaum@umass.edu
+
+opportunities:
+  - name: Five College Astronomy Undergraduate Internship
+    description: The Five College Astronomy Department conducts research in a wide variety of areas, including the astrophysics of comets, stars, exoplanets, the interstellar medium, and galaxies.
+    link: https://www.astro.umass.edu/academics/five-college-astronomy-undergraduate-internship-program
+
+  - name: Five College Coastal and Marine Sciences NOAA Internship Program
+    description: Interns have the opportunity to gain valuable experience conducting fieldwork, processing samples in the lab, performing data analysis, and participating in research cruises.
+    link: https://www.fivecolleges.edu/five-college-coastal-marine-sciences-summer-internship-program
+
+  - name: UConn Summer research in Biological and Biomedical Sciences
+    description: UConn Health invites applications from highly qualified and motivated undergraduate students who have an interest in obtaining a Ph.D. in the biological and biomedical sciences.
+    link: https://health.uconn.edu/graduate-school/academics/programs/summer/
+
+  - name: BU School of Public Health Summer Institute for Research in Biostatistics
+    description: If you are an undergraduate with an interest in mathematics, statistics, biology, or health sciences and would like to learn how to apply methods to investigate important health issues, come join us for our highly successful Summer Institute for Research Education in Biostatistics program.
+    link: https://www.bu.edu/sph/about/departments/biostatistics/summer-institute-for-training-in-biostatistics
+
+  - name: University of Missouri Dept. of Psychological Sciences Alcohol Research Training Summer School
+    description: The MU-Alcohol Research Training Summer School (MU-ARTSS) is designed undergraduate students interested in alcohol research and possible careers as alcohol researchers.
+    link: https://psychology.missouri.edu/research/artss/mu-artss
+
+  - name: University of Nebraska-Lincoln Summer Research Program
+    description: "The primary focus in each summer research project is biomedical devices designed to enhance medical care through science and engineering, with emphasis in two areas: (1) devices for diagnostics and sensing and (2) devices for therapeutics and intervention."
+    link: https://www.unl.edu/summerprogram/biomedical
+
+  - name: Massachusetts Life Sciences Center Internship Challenge
+    description: The Massachusetts Life Sciences Center (MLSC) Internship Challenge is a workforce development program focused on enhancing the talent pipeline for Massachusetts companies engaged in life sciences.
+    link: http://www.masslifesciences.com/programs/internship/
+
+  - name: Ceres Summer Intern Program
+    description: Ceres is a sustainability nonprofit organization working with the most influential investors and companies to build leadership and drive solutions throughout the economy.
+    link: http://www.ceres.org/about-us/job-opportunities
+
+  - name: Massachusetts Clean Energy Internship Program
+    description: The Massachusetts Clean Energy Internship Program helps prepare the next generation of clean energy workers by funding internships for students and recent graduates at Massachusetts clean energy and water innovation companies.
+    link: https://www.masscec.com/clean-energy-internship-program
+
+  - name: Smithsonian Tropical Research Institute Panama
+    description: Internships provide the opportunity to meet and work with scientists from around the world, gain hands-on experience in academia and research, and delve into Panama's rich ecosystems and culture.
+    link: https://stri.si.edu/academic-programs/internships
+
+  - name: UMass Medical School Combined Summer Undergraduate Research Opportunity
+    description: UMass Medical School (UMMS) Summer Undergraduate Research Program is a structured research experience. The program consists of "hands-on" laboratory research with an investigator serving as a mentor, role model and advisor.
+    link: http://www.umassmed.edu/summer/index.aspx?linkidentifier=id&itemid=152096
+
+  - name: Blandy Research Experiences for Undergraduates (REU) Program in Ecology and Environmental Science
+    description: Our primary goal is to teach students to formulate testable hypotheses about important ecological and evolutionary questions. The format of the program encourages students to develop skills in experimental design, data collection, analysis, and critical reading of primary scientific literature.
+    link: https://blandy.virginia.edu/content/reu-program-ecology-and-evolution
