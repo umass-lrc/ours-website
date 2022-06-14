@@ -3,32 +3,30 @@ layout: default
 title: Staff
 ---
 
+{% for staff_page in site.staff %}
 <div class="row">
-  {% for person in site.staff %}
-    <div class="col-md-4 text-center">
-      {% if person.picture %}
-        {% assign picture = person.picture %}
-      {% else %}
-        {% assign picture = "assets/img/profile-placeholder.jpg" %}
-      {% endif %}
-      <div style='margin: auto; border-radius: 250px;width: 200px;height: 200px;background-image: url("{{ picture }}");background-size: cover;background-position: center;'></div>
-      <h3>{{ person.name }}</h3>
-      <h6>{{ person.title }}</h6>
-      <p>
-        <a href="mailto:{{ person.email }}">{{ person.email }}</a>
-        <br />
-        {% if person.room %}
-          Rm. {{ person.room }}
-        {% endif %}
-        {% if person.phone %}
-          | <a href="tel:{{ person.phone }}">{{ person.phone }}</a>
-        {% endif %}
-      </p>
+  <div class="card" style="margin-left: 1em; margin-right: 1em; margin-bottom: 1em;">
+    <div class="card-body">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-3">
+          {% if staff_page.image %}
+            {% assign image = staff_page.image %}
+          {% else %}
+            {% assign image = "profile-placeholder.jpg" %}
+          {% endif %}
+          <div style="border-radius: 250px; width: 200px; height: 200px; background-image: url('assets/img/{{ image }}'); background-size: cover; background-position: center;"></div>
+        </div>
+        <div class="col-md-9">
+          <div class="card-text">
+            <h4>{{ staff_page.name }}</h4>
+            <h5>{{ staff_page.majors }}</h5>
+            <p>{{ staff_page.content }}</p>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
-    {% assign remainder = forloop.index | modulo: 3 | minus: 1 %}
-    {% if remainder == 2 %}
+  </div>
 </div>
-<div class="row">
-    {% endif %}
-  {% endfor %}
-</div>
+{% endfor %}

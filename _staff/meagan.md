@@ -1,0 +1,7 @@
+---
+name: Meagan
+majors: Neuroscience and Biology
+image: meagan.jpg
+---
+
+I am a junior studying neuroscience and biology. I also am a member of the Commonwealth Honors College. I knew early on that I was interested in becoming an academic researcher, so I reached out to OURS as a freshman to get involved. Meeting with an OURS mentor helped me find labs that fit my interest, and taught me how to contact the PI to land an interview. That summer, I joined Paul Katz’s lab in the Biology department. Our lab studies the neural basis of behavior in a species of sea slug, Berghia stephanieae. These sea slugs are a very interesting organism to study because they have fewer than 10,000 neurons. This allows us to better understand the workings of the whole brain. The research I am currently assisting with focuses on how hormones influence social behavior, and hormone expression in the brain. By being a research assistant I have learned how to conduct behavioral assays, perform immunohistochemistry, and use computer applications such as BLAST and FIJI. Participating in research as an undergrad has also helped me discover what I may like to research in the future. By being a lab assistant, my passion for research has grown, along with my confidence as a young scientist. I’m excited to work for OURS as a research mentor so that I can help other students attain fulfilling research experiences like I have.

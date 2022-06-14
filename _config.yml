@@ -87,40 +87,6 @@ homepage:
           - text: Learn more
             link: staff.html
 
-staff:
-  - name: LIN TANG, Ph.D.
-    title: Director
-    picture: assets/img/lin.jpg
-    email: lintang@acad.umass.edu
-    room: 1002
-    phone: +1 (413) 545-5334
-
-  - name: STACIE VANASSE
-    title: Associate Director
-    picture: assets/img/stacie2.jpg
-    email: svanasse@umass.edu
-    room: 1090
-    phone: +1 (413) 577-2341
-
-  - name: DEB PHILLIS
-    title: OURS Coordinator and Lead Shift Manager
-    picture: assets/img/deb3.jpg
-    email: dphillis@acad.umass.edu
-    room: 1039
-    phone: +1 (413) 577-2175
-
-  - name: ZEKE SHENK
-    title: LRC Shift Manager
-    email: zshenk@umass.edu
-
-  - name: SIMON ANDREWS
-    title: Tech Lead
-    email: sbandrews@umass.edu
-
-  - name: LILY ROSENBAUM
-    title: Assistant Tech Lead
-    email: lrosenbaum@umass.edu
-
 opportunities:
   - name: Five College Astronomy Undergraduate Internship
     description: The Five College Astronomy Department conducts research in a wide variety of areas, including the astrophysics of comets, stars, exoplanets, the interstellar medium, and galaxies.
@@ -169,3 +135,7 @@ opportunities:
   - name: Blandy Research Experiences for Undergraduates (REU) Program in Ecology and Environmental Science
     description: Our primary goal is to teach students to formulate testable hypotheses about important ecological and evolutionary questions. The format of the program encourages students to develop skills in experimental design, data collection, analysis, and critical reading of primary scientific literature.
     link: https://blandy.virginia.edu/content/reu-program-ecology-and-evolution
+
+collections:
+  staff:
+    output: false

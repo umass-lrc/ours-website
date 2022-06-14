@@ -5,5 +5,3 @@ _site/
 # VS Code
 *.code-workspace
 
-# Temporary, until the assets folder gets cleaned up
-assets/
