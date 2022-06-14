@@ -4,8 +4,8 @@ layout: default
 
 <!-- First row, containing carousel and USF sidebar. -->
 <div class="row">
-  <div class="col-lg-8">
-    <div id="main-carousel" class="carousel slide" data-ride="carousel">
+  <div class="col-lg-12">
+    <div id="main-carousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 1em;">
       <ol class="carousel-indicators">
         {% for carousel_item in site.homepage.carousel.items %}
           {% if forloop.index == 1 %}
@@ -22,7 +22,7 @@ layout: default
           {% else %}
           <div class="carousel-item">
           {% endif %}
-            <img class="d-block w-100" src="{{ carousel_item.image }}">
+            <img class="w-100" src="{{ carousel_item.image }}">
             <div class="carousel-caption d-none d-md-block">
               <h1>{{ carousel_item.title }}</h1>
               <p>{{ carousel_item.subtitle }}</p>
@@ -51,26 +51,6 @@ layout: default
       </div>
     </div>
   </div>
-  <div class="col-lg-4">
-    {% for item in site.homepage.sidebar.items %}
-      <div class="row">
-        <div class="col-sm-2">
-          <div align="center" style="font-size: 28pt">
-            <i class="fas fa-{{ item.icon }}"></i>
-          </div>
-        </div>
-        <div class="col-sm -10">
-          <p>
-            <a style="color: black;" href="{{ item.link }}">
-              <strong>{{ item.title }}</strong>
-              <br />
-              {{ item.description }}
-            </a>
-          </p>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
 </div>
 
 <!-- Second row: open/close times and main content -->
@@ -84,5 +64,5 @@ layout: default
 </div>
 
 <script>
-  {% include timing.js hours="main_office" %}
+  {% include timing.js hours="ours" %}
 </script>

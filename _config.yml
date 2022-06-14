@@ -6,23 +6,19 @@ site_policies_link: https://www.umass.edu/gateway/site-policies
 webmaster_email: sbandrews@umass.edu
 
 navbar_links:
-  - name: Tutoring
-    link: tutoring.html
-  - name: SI
-    link: si.html
-  - name: OURS
-    link: https://www.umass.edu/ours/
-  - name: User Guides
-    link: user_guide.html
-  - name: Student Employment
-    link: student_employment.html
+  - name: Opportunities
+    link: opportunities.html
+  - name: Students
+    link: students.html
+  - name: LRC
+    link: https://www.umass.edu/lrc/
 
 navbar_dropdown_title: Staff
 navbar_dropdown_links:
   - name: Staff Page
     link: staff.html
   - name: Staff Login
-    link: https://oursoffice.umass.edu/lrc_super/lrc_super/public/views/index.php
+    link: https://oursoffice.umass.edu/
 
 # For every alert you would like to add, specify:
 #  - text: the text for the alert, e.g. "The LRC will be closed tomorrow."
@@ -43,48 +39,32 @@ alerts:
 open_closed_card:
   items:
     - title: Hours
-      content: LRC is open for services by appointment only for a small selection of classes. Please email us for an appointment. For virtual drop-in tutoring sessions, please call the LRC instead. Our front office team will be happy to put you on the virtual queue.
+      content: "Mon-Thu: 9AM-5PM<br />Fri: 8AM-4PM" 
     - title: Address
       content: 10th floor, W.E.B. Du Bois Library, 154 Hicks Way, Amherst MA
       link: https://goo.gl/maps/nXjB7p5p6CocBAKB9
     - title: Email
-      content: lrc@umass.edu
-      link: mailto:lrc@umass.edu
-    - title: Telephone
-      content: +1 (413) 545-5334
-      link: tel:14135455334
+      content: ours@umass.edu
+      link: mailto:ours@umass.edu
+    - title: Make an appointment
+      content: Click <a href="https://umass.campus.eab.com/">here</a> to make an appointment and <a href="assets/files/How to Make an OURS Appointment _ OURS website.pdf">here</a> to learn how to make an appointment. OURS meetings can be held in-person or over Zoom.
+    # - title: Telephone
+    #   content: +1 (413) 545-5334
+    #   link: tel:14135455334
 
 hours:
-  main_office:
+  ours:
     - start_day: 0
       end_day: 0
       closed: true
     - start_day: 1
-      end_day: 5
+      end_day: 4
       open_time: 9
       close_time: 17
-    - start_day: 6
-      end_day: 6
-      closed: true
-  tutoring:
-    - start_day: 0
-      end_day: 0
-      closed: true
-    - start_day: 1
+    - start_day: 5
       end_day: 5
-      open_time: 9
-      close_time: 17
-    - start_day: 6
-      end_day: 6
-      closed: true
-  si:
-    - start_day: 0
-      end_day: 0
-      closed: true
-    - start_day: 1
-      end_day: 5
-      open_time: 9
-      close_time: 17
+      open_time: 8
+      close_time: 16
     - start_day: 6
       end_day: 6
       closed: true
@@ -92,69 +72,20 @@ hours:
 homepage:
   carousel:
     items:
-      - title: Tutoring
-        subtitle: Get individualized help for a large number of courses.
-        image: assets/img/pic1.jpg
+      - title: Opportunity Spotlight
+        subtitle: <b>Mass Life Sciences Internship Challenge Summer 2022 is now open!</b><br />Paid internships for college students and recent graduates considering career opportunities in the life sciences. Students in any major are encouraged to apply, though the majority of interns have been engineering, biology, chemistry, and business majors. Placements are rolling, and there is no application deadline. However, students are urged to apply no later than April for the best chance to secure a summer placement. The internship is paid.
+        image: assets/img/2015_Courtney_Babbitt_Peter_Chien_js_MG_1820.jpeg
+        buttons:
+          - text: Internship challenge
+            link: https://www.masslifesciences.com/programs/internship-challenge/
+          - text: Data science internship program
+            link: https://www.masslifesciences.com/programs/datascienceinternshipchallenge/
+      - title: Meet our Mentors
+        subtitle:  Meet our undergraduate research mentors that can help you find research opportunities!
+        image: assets/img/2014_Plant_Cell_Culture_MG_1799-2.jpeg
         buttons:
           - text: Learn more
-            link: tutoring.html
-      - title: Supplemental Instruction
-        subtitle: Check out the SI schedule.
-        image: assets/img/pic2.jpg
-        buttons:
-          - text: Learn more
-            link: si.html
-
-  # The "sidebar" is the part of the homepage next to the carousel that has
-  # some handy commonly used links.
-  #
-  # For each sidebar item, specify,
-  #  - icon: the name of an icon from font-awesome: https://fontawesome.com/
-  #  - title: large, bold text
-  #  - description: smaller, more detailed text
-  #  - link: where the link should go to. For links to the LRC website itself,
-  #    omit the "https://www.umass.edu/lrc/" prefix. So, if you want a link to
-  #    https://www.umass.edu/lrc/tutoring.html you should put "tutoring.html"
-  #
-  # There should only be 7 sidebar items. Having more or less will result in
-  # ugly unused space. Having fewer than seven isn't _as_ bad, but it's still
-  # better to avoid.
-  sidebar:
-    items:
-      - icon: chalkboard-teacher
-        title: Supplemental Instruction
-        description: Small, peer-led review sessions
-        link: si.html
-
-      - icon: hands-helping
-        title: Drop-in tutoring schedule
-        description: Get individual help now
-        link: https://oursoffice.umass.edu/tutoring_schedule/
-
-      - icon: calendar-alt
-        title: Book a tutoring appointment
-        description: Pick a time that works for you
-        link: https://umass.campus.eab.com/
-
-      - icon: book-open
-        title: OURS
-        description: Discover research opportunities
-        link: https://www.umass.edu/ours/
-
-      - icon: glasses
-        title: Faculty support
-        description: Learn how your course can benefit from LRC services
-        link: user_guide.html
-
-      - icon: handshake
-        title: Work for the LRC
-        description: We're hiring SI leader, tutors, and research mentors for fall 2022!
-        link: student_employment.html
-
-      - icon: question-circle
-        title: Email the LRC
-        description: Receive a response in 24 business hours
-        link: mailto:lrc@umass.edu
+            link: staff.html
 
 staff:
   - name: LIN TANG, Ph.D.

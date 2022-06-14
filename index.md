@@ -3,9 +3,21 @@ layout: homepage
 title: "Home"
 ---
 
-# Welcome
+## Welcome to the Office of Undergraduate Research and Studies (OURS)
 
 
-The Learning Resource Center (LRC) serves as the central undergraduate academic and undergraduate research support unit for the University of Massachusetts Amherst (UMass Amherst). At UMass Amherst’s Learning Resource Center (LRC), there are four different branches of academic support and undergraduate research support available to students, including Peer Tutoring (drop in and by appointment), Study Skills Tutoring, Supplemental Instruction (SI) and the Office of Undergraduate Research and Studies (OURS). LRC and OURS services are built-in campus resources, and they are completely free for UMass undergraduates. The different types of academic resources are available to support students in achieving their iteration of academic success at UMass Amherst.
+ The Office of Undergraduate Research & Studies (OURS) is part of the [Learning Resource Center](https://www.umass.edu/lrc/) and serves as the centralized research and resource office for the campus. OURS helps students find and access undergraduate research and scholarly opportunities on and off campus, throughout the year.  We serve students in all disciplines at every stage of their undergraduate careers. Students are also supported in preparing for and navigating the application process for research and scholarly opportunities.
 
-LRC and OURS departmental home is on the 10th floor of the W.E.B. DuBois Library! We took forward to supporting your academic success this year and beyond!
+We meet students in a one on one capacity. For a one-on-one meeting: fill out our [short form](https://umass.campus.eab.com/), email us at [ours@umass.edu](ours@umass.edu), or visit us on the 10th floor of the W. E. B. Du Bois Library.
+
+---
+
+ OURS has created a short Research Readiness Moodle course that provides information about getting involved in research and guides you on ways to turn your interests into research projects. Click [here](https://docs.google.com/forms/d/e/1FAIpQLSdQWAn7CR47kZ9BQJAR1UQrnxCHZHQFAEzHg_M20ah5befQJg/viewform?vc=0&c=0&w=1&flr=0) to gain access.
+
+---
+
+### Announcements
+ * To book an appointment with an OURS Research Mentor or Staff Person, please click on the Make an Appointment Button.
+ * If you have questions, please email [ours@umass.edu](mailto:ours@umass.edu). We look forward to supporting you this semester!
+ * OURS has been highlighted by the Transfer Admissions Office - Click [here](https://www.youtube.com/watch?v=90MLQWW7ZL0) to watch!
+
