@@ -31,7 +31,7 @@ navbar_dropdown_links:
 #        string from random.org.
 #  - dismissable: whether users can dismiss the alert by clicking an X button
 alerts:
-  - text: The LRC is hiring peer tutors, SI leaders, and OURS research mentors.
+  - text: If you have questions during the summer about OURS services please email ours@umass.edu
     type: info
     id: recruiting_fall_2022
     dismissable: true
