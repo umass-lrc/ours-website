@@ -1,5 +1,5 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.umass.edu" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ours" # the subpath of your site, e.g. /blog
 title: "Office of Undergraduate Research and Studies"
 
 site_policies_link: https://www.umass.edu/gateway/site-policies
