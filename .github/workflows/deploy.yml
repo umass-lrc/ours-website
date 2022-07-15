@@ -1,0 +1,23 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: sudo apt-get install -yq jekyll sshpass
+    - name: Build site
+      run: jekyll build
+    - name: Adding server to known host list
+      run: |
+        mkdir ~/.ssh
+        echo "webadmin.oit.umass.edu ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAumGCfQMES3OuXqEEGmnq86+MocBV5wO8FHIiCSm+okqA3Ip/y84QhqAkoi2lK3/QUfCRvIfoNqPBSe2jtVakWndH4E0IOeTTwA8i3q4KKeRlQAVIx9GOjJsVDGadK31Be+YWGwGIYGIYlZt+i52ZtH9sPCCp0UTecwOvK6cUQZc=" > ~/.ssh/known_hosts
+    - name: Upload site
+      run: sshpass -e rsync --archive --verbose --delete "_site/" "lrc@webadmin.oit.umass.edu:/home/lrc/OURS_Webpage"
+      env:
+        SSHPASS: ${{ secrets.UMASS_SFTP_SERVER_PASSWORD }}
